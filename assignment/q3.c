@@ -8,7 +8,7 @@ float eqn(float num){
 }
 int main()
 {
-  float x, y1, y2, y, x1=1, x2=3;
+  float x, y1, y2, y, x1=0, x2=1;
   int counter=1;
   while(1){
     // y1=x1*exp(x1)-cos(x1);
