@@ -2,13 +2,14 @@
 #include <math.h>
 float eqn(float num){
   float y_num;
-  y_num=num*exp(num)-cos(num);
+  // y_num=num*exp(num)-cos(num);
   // y_num=pow(num,2)-num-2;
+  y_num=pow(num, 6)-pow(num, 4)-pow(num, 3)-1;
   return y_num;
 }
 int main()
 {
-  float x, y1, y2, y, x1=0, x2=1;
+  float x, y1, y2, y, x1=1, x2=2;
   int counter=1;
   while(1){
     // y1=x1*exp(x1)-cos(x1);
